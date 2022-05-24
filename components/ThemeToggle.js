@@ -14,7 +14,7 @@ const ThemeDiv = styled.button`
   align-items: center;
   justify-content: space-between;
 
-  background: ${(p) => (p.isDark ? "rgb(77, 71, 71)" : "rgb(240, 222, 222);")};
+  background: ${(p) => (p.isDark ? "rgb(77, 71, 71)" : "white;")};
 `;
 
 const ThemeSpan = styled.span`
@@ -22,7 +22,7 @@ const ThemeSpan = styled.span`
   transition: 1s ease;
   height: 25px;
   border-radius: 50%;
-  background: ${(p) => (p.isDark ? "rgb(240, 222, 222)" : "rgb(77, 71, 71)")};
+  background: ${(p) => (p.isDark ? "white" : "rgb(77, 71, 71)")};
   position: absolute;
   cursor: pointer;
   transform: ${(p) => (p.isDark ? "translateX(25px)" : "translateX(-2px);")};

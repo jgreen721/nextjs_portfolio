@@ -34,7 +34,7 @@ const Navbar = () => {
             <div className={styles.underline}></div>
           </li>
           <li className={styles.nav_item}>
-            <Link href="/about">Projects</Link>
+            <Link href="/projects">Projects</Link>
             <div className={styles.underline}></div>
           </li>
           <li className={styles.nav_item_plus}>+</li>

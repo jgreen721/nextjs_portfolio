@@ -22,14 +22,14 @@ li {
 body[data-theme="light"] {
   --color-text-primary: rgb(77, 71, 71);
   --color-text-secondary: gray;
-  --color-bg-primary: rgb(240, 222, 222);
+  --color-bg-primary: white;
   --color-bg-secondary: lightgray;
 }
 
 body[data-theme="dark"] {
   --color-bg-primary: rgb(44, 41, 41);
   --color-bg-secondary: gray;
-  --color-text-primary: rgb(229, 228, 238);
+  --color-text-primary: white;
   --color-text-secondary: rgb(85, 85, 238);
 }
 
@@ -37,6 +37,16 @@ body {
   background: var(--color-bg-primary);
   color: var(--color-text-primary);
   transition: 1s ease;
+}
+
+.app {
+  height: 100vh;
+  width: 100vw;
+}
+
+main {
+  height: 100%;
+  width: 100%;
 }
 
 nav {

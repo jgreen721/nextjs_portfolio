@@ -1,0 +1,169 @@
+.about_page {
+  height: 135%;
+  width: 100%;
+  /* background: lightgray; */
+  overflow: auto;
+}
+
+.about_header {
+  height: 50%;
+  width: 100%;
+  /* border: 2px solid black; */
+}
+
+.tag_divs {
+  display: inline-block;
+  margin: 2px 2px;
+  color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 0.25em;
+  /* color: var(--text-primary); */
+}
+
+.gray_tag {
+  padding: 0.25em;
+
+  background: gray;
+}
+
+.blue_tag {
+  padding: 0.25em;
+
+  background: blue;
+}
+
+.description_box {
+  border: 1px solid var(--color-bg-primary);
+}
+
+.about_top_flex_start {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 1em;
+  width: 100%;
+}
+
+.top_meta {
+  /* display: flex; */
+  margin: 10px 0px;
+  /* align-items: center;
+  justify-content: space-evenly; */
+  width: clamp(40%, 300px, 90%);
+}
+
+.top_meta h5 {
+  display: inline-block;
+  margin: 0px 2px;
+}
+
+.dot {
+  transform: translateY(2px);
+}
+
+.green {
+  color: green;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.tan {
+  color: tan;
+}
+
+.tan:hover {
+  background: rgb(248, 212, 165);
+}
+
+.red {
+  color: red;
+}
+
+.red:hover {
+  background: rgb(243, 107, 107);
+}
+
+.violet {
+  color: rgb(173, 23, 173);
+}
+
+.violet:hover {
+  background: violet;
+}
+
+.purple {
+  color: purple;
+}
+
+.purple:hover {
+  background: rgb(240, 83, 240);
+}
+
+.green_blue {
+  color: rgb(0, 128, 111);
+}
+
+.green_blue:hover {
+  background: rgb(74, 182, 167);
+}
+
+.courier_new {
+  font-family: Courier new;
+}
+
+.about_header_text_center_div {
+  text-align: center;
+}
+
+.about_header_text_center_div h4 {
+  padding: 0.75em;
+  cursor: pointer;
+}
+
+.about_header_middle {
+  padding: 1em;
+}
+
+.about_h1 {
+  font-size: 100px;
+}
+
+.about_body {
+  height: 75%;
+  width: 100%;
+  /* border: 2px solid red; */
+}
+
+.about_body_content {
+  padding: 1em;
+  height: 100%;
+  width: 100%;
+}
+
+.courier_code {
+  background: lightgray;
+  padding: 0.5em;
+  margin: 5px 0px;
+}
+
+.courier_code h5 {
+  margin: 5px 0px;
+}
+
+.title_h4 {
+  margin: 15px 0px;
+}
+
+.doc_h5 {
+  width: 100%;
+  background: red;
+  margin: 0 auto;
+  /* margin-top: 10px; */
+  padding: 0.5em;
+}
+
+.h5_comment {
+  margin-bottom: 25px;
+  color: red;
+}
