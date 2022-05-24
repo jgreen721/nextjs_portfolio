@@ -47,7 +47,7 @@ const About = () => {
         <div className={styles.about_header_middle}>
           <h1 className={styles.about_h1}>justin</h1>
           <p>
-            Fast, unopinionated, minimalist web developer skilled in{" "}
+            Fast, unopinionated, minimalist web developer skilled in
             <span className={styles.red}>node</span>
           </p>
           <div className={styles.about_header_bottom_flex}>
@@ -86,7 +86,7 @@ const About = () => {
                 <span className={styles.purple}>about()</span>
               </h5>
               <h5 className={styles.h5_comment}>
-                /* -- Shows about-dev properties
+                {`/* -- Shows about-dev properties`}
               </h5>
               <h5>{`{`}</h5>
               <h5>name:Justin Green,</h5>
