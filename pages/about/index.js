@@ -1,6 +1,6 @@
 import React from "react";
 // import Image from "next/image";
-// import { motion } from "framer-motion";
+import { motion } from "framer-motion";
 import styles from "./About.module.css";
 
 const slideVariant = {
@@ -70,7 +70,8 @@ const About = () => {
             <div className={styles.courier_code}>
               <h5>
                 <span className={styles.red}>const</span> justin =
-                <span className={styles.purple}>require</span>("justin")
+                <span className={styles.purple}>require</span>
+                {`("justin")`}
               </h5>
               <h5>
                 <span className={styles.red}>const</span> dev = justin()
