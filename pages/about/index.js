@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+// import Image from "next/image";
 import { motion } from "framer-motion";
 import styles from "./About.module.css";
 
@@ -48,7 +48,7 @@ const About = () => {
           <h1 className={styles.about_h1}>justin</h1>
           <p>
             Fast, unopinionated, minimalist web developer skilled in{" "}
-            <span class={styles.red}>node</span>
+            <span className={styles.red}>node</span>
           </p>
           <div className={styles.about_header_bottom_flex}>
             <div className={styles.tag_divs}>
@@ -69,12 +69,10 @@ const About = () => {
           <div className={styles.about_body_content}>
             <div className={styles.courier_code}>
               <h5>
-                {" "}
-                <span className={styles.red}>const</span> justin ={" "}
-                <span className={styles.purple}>require</span>("justin"){" "}
+                <span className={styles.red}>const</span> justin =
+                <span className={styles.purple}>require</span>("justin")
               </h5>
               <h5>
-                {" "}
                 <span className={styles.red}>const</span> dev = justin()
               </h5>
             </div>
@@ -105,15 +103,3 @@ const About = () => {
 };
 
 export default About;
-
-{
-  /* <div className={styles.header}>
-<h1>ABOUT</h1>
-<h1>ME</h1>
-</div>
-<section class={styles.bio_section}>
-<p> 
-  <span className={styles.large}>W </span>ell, isn't this always the exicting section. The 
-</p>
-</section> */
-}
