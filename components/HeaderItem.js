@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import styles from "../About.module.css";
+import styles from "../pages/about/About.module.css";
 import styled from "@emotion/styled";
 
 const ColorText = styled.h4`
