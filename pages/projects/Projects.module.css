@@ -1,0 +1,66 @@
+.project {
+  background: red;
+}
+
+.project_content_row {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  overflow-y: auto;
+  margin-top: 10px;
+}
+
+.frontend_row {
+  padding: 1em;
+}
+
+.project_card {
+  min-width: 200px;
+  min-height: 225px;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  text-align: center;
+  z-index: 2;
+  margin: 5px;
+  border-radius: 10%;
+  box-shadow: 4px 2px 2px gray;
+  transition: 0.5s ease;
+  cursor: pointer;
+  padding: 0.5em;
+}
+
+.project_card:hover {
+  transform: scale(1.02);
+  box-shadow: 4px 2px 8px gray;
+}
+
+.project_thumbnail:hover {
+  height: 200px;
+  width: 200px;
+  transform: scale(2);
+  border-radius: 50%;
+}
+
+.project_h3 {
+  font-size: 16px;
+}
+
+.git_leet_row {
+  margin-top: 15px;
+  display: flex;
+  height: 200px;
+  border: 2px solid black;
+  padding: 1em;
+}
+
+.leet_column,
+.git_column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex: 1;
+}

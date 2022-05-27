@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1>Your App</h1>
+        <h1 className={styles.thick_h1}>Your App</h1>
       </main>
     </div>
   );
