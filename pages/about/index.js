@@ -1,6 +1,6 @@
 import React from "react";
 // import Image from "next/image";
-import { HeaderItem } from "./components";
+import { HeaderItem } from "../../components";
 import { motion } from "framer-motion";
 import styles from "./About.module.css";
 import { FaReadme, FaCompress, FaBox, FaBoxes, FaTag } from "react-icons/fa";
