@@ -126,7 +126,11 @@ const Projects = (props) => {
                 animate="animate"
               >
                 <h3 className={styles.project_h3}>{f.name}</h3>
-                <a target="_blank" href="https://jgreen721.github.io/todo_list">
+                <a
+                  target="_blank"
+                  href="https://jgreen721.github.io/todo_list"
+                  rel="noreferrer"
+                >
                   <Image
                     className={styles.project_thumbnail}
                     width="150"
