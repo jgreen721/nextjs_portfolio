@@ -246,7 +246,7 @@ const About = () => {
       </div>
       <div className={styles.big_section}>
         <h1>Big Section!</h1>
-        <div className={styles.icon_grid}>
+        {/* <div className={styles.icon_grid}>
           {icons.map((ICON) => (
             <motion.div
               key={ICON}
@@ -259,7 +259,7 @@ const About = () => {
               <ICON className={styles.icon} />
             </motion.div>
           ))}
-        </div>
+        </div> */}
       </div>
       <div className={styles.big_section}>
         <h1>Big Section!</h1>

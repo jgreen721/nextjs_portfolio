@@ -1,0 +1,35 @@
+.bobs_burgers_app {
+  height: 100%;
+  width: 100%;
+  border: 2px solid red;
+  overflow: auto;
+}
+
+.bobs_hero {
+  width: 100%;
+  /* border: 3px solid blue; */
+  height: 400px;
+  position: relative;
+}
+
+.bobs_container {
+  height: 80%;
+  overflow: auto;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.bobs_hero_img {
+  width: 100%;
+  height: 100%;
+}
+
+.character_row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0.5em;
+  box-shadow: 2px 1px 7px gray;
+  margin: 5px 0px;
+}
