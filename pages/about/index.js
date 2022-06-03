@@ -224,7 +224,7 @@ const About = () => {
       <div id="about" className={styles.big_section}>
         <div className={styles.about_section}>
           <h1>About Me</h1>
-          <p>
+          {/* <p>
             <span className={styles.large_p}>S</span>o, I feel I was kind of
             born between generations, so to speak. Growing up computers popped
             up onto the scene, but I was too busy enjoying them from a client
@@ -241,7 +241,7 @@ const About = () => {
             codecamey/bootcamps. Cute, and beneficial but I knew I was not job
             ready. So, its been the while() loop of progress ever since. I'm job
             ready now, and would love an opportunity.
-          </p>
+          </p> */}
         </div>
       </div>
       <div className={styles.big_section}>
