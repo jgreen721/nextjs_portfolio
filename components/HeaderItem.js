@@ -10,21 +10,22 @@ const ColorText = styled.h4`
   }
 `;
 
-const HeaderItem = ({ item }) => {
+const HeaderItem = ({ item, handleScrollTo, idx }) => {
   const blurbRef = useRef();
-  const showBlurb = () => {
-    console.log("ShowBlurb");
-    blurbRef.current.style.display = "block";
-  };
+  // const showBlurb = () => {
+  //   console.log("ShowBlurb");
+  //   blurbRef.current.style.display = "block";
+  // };
 
-  const closeBlurb = () => {
-    console.log("closeBlurb");
-    blurbRef.current.style.display = "none";
-  };
+  // const closeBlurb = () => {
+  //   console.log("closeBlurb");
+  //   blurbRef.current.style.display = "none";
+  // };
   return (
     <div
       // onMouseEnter={showBlurb}
       // onMouseLeave={closeBlurb}
+      onClick={() => handleScrollTo(idx + 2)}
       className={styles.header_item}
     >
       <ColorText color={item.color} hover={item.hover}>
